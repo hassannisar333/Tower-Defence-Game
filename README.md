@@ -2,75 +2,58 @@
 
 ## Overview
 
-Tower Defence Game is a strategy-based game developed in C++ where players defend their base by placing different types of towers to stop waves of enemies from reaching the destination. The game focuses on algorithm design, object-oriented programming, and game logic implementation.
+Tower Defence Game is a 2D strategy game developed using Godot Engine. The objective of the game is to defend the player's base by strategically placing towers that automatically attack enemies moving along a predefined path.
 
 ## Features
 
 * Multiple waves of enemies
-* Different tower types with unique attack abilities
-* Enemy movement along predefined paths
-* Health and score tracking system
-* Resource management for building and upgrading towers
-* Game-over and victory conditions
-* Interactive console/game interface
+* Different enemy types with varying health and speed
+* Tower placement and attack system
+* Automatic enemy detection and targeting
+* Health and score tracking
+* Win and game-over conditions
+* Interactive 2D gameplay
 
 ## Technologies Used
 
-* Programming Language: C++
-* Concepts: Object-Oriented Programming (OOP), Data Structures, Algorithms
-* Development Environment: Visual Studio Code / Dev-C++
-
-## OOP Concepts Implemented
-
-* Classes and Objects
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-
-## Data Structures and Algorithms Used
-
-* Arrays and Vectors for storing game entities
-* Queues for enemy wave management
-* Pathfinding and collision detection algorithms
-* Dynamic memory management for game objects
+* Game Engine: Godot Engine
+* Programming Language: GDScript
+* Concepts: Object-Oriented Programming (OOP), Game Development, Data Structures, Algorithms
 
 ## Game Mechanics
 
-1. The player starts with a fixed amount of resources.
-2. Towers are placed strategically on the map.
-3. Enemies spawn in waves and follow a path toward the base.
-4. Towers automatically detect and attack enemies within range.
-5. Players earn points or resources by defeating enemies.
-6. The game ends when all waves are defeated or the base health reaches zero.
+1. Enemies spawn in waves and follow a predefined path.
+2. The player places towers at strategic locations.
+3. Towers detect enemies within their attack range.
+4. Towers automatically attack and destroy enemies.
+5. The player earns points by defeating enemies.
+6. The game ends when all enemy waves are defeated or the base health reaches zero.
 
-## Project Structure
+## Core Systems
 
-* Game Engine
-* Tower Management System
-* Enemy Management System
-* Wave Generator
-* Score and Resource System
-* User Interface Module
+* Enemy Spawning System
+* Tower Attack and Range System
+* Wave Management System
+* Health and Damage System
+* Score System
+* Collision Detection System
 
 ## Learning Outcomes
 
-Through this project, I gained practical experience in:
-
-* Designing and implementing game logic
-* Applying object-oriented programming principles
-* Managing complex interactions between game objects
-* Improving problem-solving and debugging skills
-* Developing algorithmic thinking and software design skills
+* Developed practical skills in game development using Godot Engine.
+* Implemented object-oriented programming concepts in a real project.
+* Designed game mechanics and state management systems.
+* Improved problem-solving, debugging, and software design skills.
+* Gained experience in scripting and event-driven programming.
 
 ## Future Improvements
 
-* Add a graphical user interface (GUI)
-* Introduce more tower and enemy types
-* Implement save/load game functionality
-* Add sound effects and animations
-* Create multiple levels and difficulty modes
-* Develop an online leaderboard system
+* Add tower upgrades and special abilities.
+* Introduce additional enemy types and bosses.
+* Add sound effects and animations.
+* Implement save/load functionality.
+* Create multiple maps and difficulty levels.
+* Add a leaderboard system.
 
 ## Author
 
